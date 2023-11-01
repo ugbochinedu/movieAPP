@@ -10,7 +10,8 @@ import { store } from "./store";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
-  <React.StrictMode>
+<div className="bg-gray-900 h-full">
+   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
@@ -22,4 +23,6 @@ root.render(
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
+</div>
+ 
 );

@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="border-b border-gray-200 border-opacity-25 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap">Movies</span>
+            <span className="text-white pl-5 self-center text-4xl font-semibold whitespace-nowrap">Movies</span>
           </Link>
 
           <div className="flex items-center lg:order-2">
